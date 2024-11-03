@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #212121;
+}
+
+body, html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.navchatg {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    justify-content: space-between;
+    display: flex;
+    color: #b4b4b4;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30vh;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+ul i {
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+
+#section-one {
+    font-size: 18px;
+    color: #b4b4b4;
+    font-weight: 500;
+}
+
+/* .chat {
+    padding: 10px;
+}
+.chat:hover {
+    border-radius: 8px;
+    background-color: #2f2f2f;
+    padding: 10px;
+    align-items: center;
+} */
+
+#logsign p {
+    font-size: 14px;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: 1px solid #b4b4b4;
+    padding: 7px 15px;    
+}
+
+.login {
+    background-color: whitesmoke;
+    color: #2f2f2f;
+}
+
+.sign:hover {
+    background-color: #6767672a;
+}
+
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    line-height: 36px;
+    padding-bottom: 5vh;
+    font-weight: 500;
+}
+
+#search {
+    text-align: start;
+    font-size: 18px;
+    padding: 8px;
+    width: 55%;    
+    border-radius: 50px;
+    justify-self: center;
+    background-color: #2f2f2f;
+    margin-bottom: 5vh;
+    
+}
+
+input {
+    border: none;
+    font-size: 16px;
+    padding: 10px ;
+    width: 90%;
+    background-color: #2f2f2f;
+    outline: none;
+}
+
+input:focus {
+    color: white;
+}
+
+.arrow {
+    background-color: #676767;
+    border-radius: 100%;
+    padding: 10px 12px 10px 12px;
+    color: #2f2f2f;
+    font-size: 14px;
+}
+
+.attach {
+    padding-left: 10px;
+    color: #676767;
+    font-size: 20px;
+    background-color: #2f2f2f;
+}
+
+#more-chatgpt {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    color: #676767;
+    margin-bottom: 5vh;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+#more-chatgpt span{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 100px;
+    border: 1px solid #676767;
+    cursor: pointer;
+}
+
+#more-chatgpt span:hover {
+    background-color: #6767672a;
+}
+
+.privacy {
+    text-align: center;
+    color: #b4b4b4;
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin-bottom: 30vh;
+}
+
+.privacy a{
+    color: #ececec;
+}
+
+.footer{
+    text-align: end;
+    margin-right: 10px;
+}
+
+.footer i {
+    color: #676767;
+    background-color: #212121;
+}
