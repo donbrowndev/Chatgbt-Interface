@@ -26,14 +26,14 @@ body, html {
     margin-bottom: 30vh;
 }
 
-ul {
+dl {
     position: relative;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-ul i {
+dl i {
     font-size: 18px;
     padding-right: 20px;
 }
@@ -55,7 +55,15 @@ ul i {
     align-items: center;
 } */
 
-#logsign p {
+#logsign dd {
+    font-size: 14px;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: 1px solid #b4b4b4;
+    padding: 7px 15px;    
+}
+
+#logsign dt {
     font-size: 14px;
     border-radius: 50px;
     margin-right: 10px;
